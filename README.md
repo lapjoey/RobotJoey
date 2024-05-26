@@ -22,11 +22,11 @@
 //
 # <code style="color : red">Les actions effectuées par le robot pour chaque couleur</code>
 - Blanc : entre chaque couleur il y aura une zone de blanc.
-- Brun : pause de duree secondes.
-- Jaune : avance du nombre de centimètres.
-- Vert : tourne de angle degrés vers la droite si sens est vrai, sinon vers la gauche.
-- Bleu : tourne de angle degrés vers la droite si sens est vrai, sinon vers la gauche.
-- Rouge : émet une série de bips.
+- Brun : pause de 3 secondes.
+- Jaune : avance de 10 centimètres.
+- Vert : tourne de 90 degrés vers la droite si sens est vrai, sinon vers la gauche.
+- Bleu : tourne de 90 degrés vers la droite si sens est vrai, sinon vers la gauche.
+- Rouge : émet 1 bip.
 - Rose : lève ou baisse la pelle selon la direction true ou false.
 - Orange : lève ou baisse la pelle selon la direction true ou false.
 - Noir : fin du programme, le robot fait un tour sur lui-même et bip.
