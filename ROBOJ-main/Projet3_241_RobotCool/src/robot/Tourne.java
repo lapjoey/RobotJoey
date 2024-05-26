@@ -21,7 +21,7 @@ public class Tourne extends Action { // Déclare une classe publique nommée Tou
 
     @Override
     public void go() { // Implémente la méthode abstraite go de la classe Action
-        double angleRotation = sens ? angle : -angle; // Détermine l'angle de rotation en fonction du sens
+        double angleRotation = sens ? angle : -angle; // Détermine l'angle de rotation en fonction du sens (Operateur Ternaire)
         bot.pilote().tourne(angleRotation); // Utilise la méthode tourne du pilote pour effectuer la rotation avec l'angle spécifié
     }
 }
