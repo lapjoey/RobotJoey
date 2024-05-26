@@ -24,8 +24,8 @@
 - Blanc : entre chaque couleur il y aura une zone de blanc.
 - Brun : pause de 3 secondes.
 - Jaune : avance de 10 centimètres.
-- Vert : tourne de 90 degrés vers la droite si sens est vrai, sinon vers la gauche.
-- Bleu : tourne de 90 degrés vers la droite si sens est vrai, sinon vers la gauche.
+- Vert : tourne de 90 degrés vers la droite si 'sens' est vrai, sinon vers la gauche.
+- Bleu : tourne de 90 degrés vers la droite si 'sens' est faux, sinon vers la gauche.
 - Rouge : émet 1 bip.
 - Rose : lève ou baisse la pelle selon la direction true ou false.
 - Orange : lève ou baisse la pelle selon la direction true ou false.
